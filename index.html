@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML Form and Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <!--HEADER-->
+    <div class="header">
+        <header>
+        <h2>ASSIGNMENT-1 CSS</h2>
+    </header>
+    <br><br><br><br><br>
+      </div>
+     <!--HEADER ENDS HERE--> 
+
+     <!--FLOAT SAMPLE AS IMAGE-->
+<img src="logo.png" alt="logo">
+    <h1>
+        Student Registration Form
+    </h1>
+    <!--FORM BEGINS HERE-->
+    <form action="/action_page.php">
+        <div>
+        <!--NAME-->   
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name"><br>
+            <br>
+
+        <!--PHONE NO.-->       
+            <label for="Phone">Phone No.:</label>
+            <input type="number" id="Phone" name="Phone"><br>
+            <br>
+
+        <!--DOB-->   
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="DOB" name="DOB"><br>
+            <br>
+
+        <!--ADDRESS-->   
+            <label for="Address">Address:</label>
+            <textarea name="Address" rows="5" cols="15"></textarea><br>
+            <br>
+
+        <!--GENDER-->   
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <br> 
+            <br>
+
+        <!--CITY-->       
+            <label>City:</label>
+            <select id="City" name="City"> 
+                <option value="Select city">Select city</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+            <br>
+            <br>
+        <!--HOBBIES-->   
+            <label>Hobbies:</label>
+            <label for="Music">Music</label>
+            <input type="checkbox" id="Music" name="Hobbies" value="Music"><br>
+
+            <label for="Sports">Sports</label>
+            <input type="checkbox" id="Sports" name="Hobbies" value="Sports"><br>
+
+            <label for="Reading">Reading</label>
+            <input type="checkbox" id="Reading" name="Hobbies" value="Reading"><br>
+            <br>
+
+        <!--SUBMIT & RESET-->       
+            <input type="Submit"> 
+            <input type="Reset">
+            <br>
+            <br>
+
+
+        </div>
+    </form> <!--FORM ENDS HERE-->
+
+
+<p id="position">
+    THIS FORM WILL BE SUBMITTED BY CLICKING THE GREEN SUBMIT BUTTON (POSITION SAMPLE)
+</p>
+<p id="display"> This text is displayed(DISPLAY SAMPLE)</p>
+<p id="hidden">This text is hidden (DISPLAY:NONE SAMPLE)</p>
+<p id="visible">VISIBLE</p>
+<p id="nonvisible">NOT VISIBLE</p>
+
+    
+</body>
+</html>
